@@ -1,0 +1,16 @@
+Alex Rivera
+alex@example.test | +63 900 000 0000 | Quezon City, Philippines
+
+PROFESSIONAL SUMMARY
+Data analyst experienced in Python, SQL, Microsoft Excel, Power BI, reporting, and communicating practical findings to business teams.
+
+SKILLS
+Python, SQL, Microsoft Excel, Power BI, Data Analysis, Communication
+
+WORK EXPERIENCE
+Data Analyst — Synthetic Company | 2022–2025
+- Automated weekly reporting and reduced preparation time by 25%.
+- Analyzed 10,000 records and presented dashboard findings.
+
+EDUCATION
+Bachelor of Science in Information Systems — Example University | 2022

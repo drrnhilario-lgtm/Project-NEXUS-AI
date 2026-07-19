@@ -1,0 +1,16 @@
+Junior Data Analyst
+
+We are looking for a Junior Data Analyst to help our product team turn data into actionable insights.
+
+Responsibilities:
+- Write SQL queries to extract and validate data.
+- Analyze product usage with Python and pandas.
+- Build dashboards in Power BI or Tableau.
+- Present clear recommendations to cross-functional stakeholders.
+
+Qualifications:
+- Strong SQL and spreadsheet skills.
+- Familiarity with Python-based data analysis.
+- Experience with dashboard and visualization tools.
+- Excellent written and verbal communication.
+- Knowledge of A/B testing is a plus.

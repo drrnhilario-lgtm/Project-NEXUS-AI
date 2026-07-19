@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">NEXUS AI Resume Intelligence Platform architecture</title>
+  <desc id="description">Offline processing flow from the user and PDF upload through extraction, parsing, skill matching, ATS analysis, resume intelligence, analytics, dashboard, and HTML or text reports.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#eef4ff"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173b82"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="output" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f4c81"/>
+      <stop offset="1" stop-color="#0284c7"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#2563eb" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f2b5b" flood-opacity=".13"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M1 1l10 5-10 5z" fill="#3b82f6"/>
+    </marker>
+    <style>
+      .title{font:800 48px Inter,Segoe UI,Arial,sans-serif;fill:#0f2345;letter-spacing:-1px}
+      .subtitle{font:400 22px Inter,Segoe UI,Arial,sans-serif;fill:#526581}
+      .lane{font:800 14px Inter,Segoe UI,Arial,sans-serif;fill:#53719d;letter-spacing:3px}
+      .card-title{font:750 23px Inter,Segoe UI,Arial,sans-serif;fill:#fff}
+      .card-subtitle{font:400 15px Inter,Segoe UI,Arial,sans-serif;fill:#dbeafe}
+      .number{font:800 14px Inter,Segoe UI,Arial,sans-serif;fill:#1d4ed8}
+      .icon{fill:none;stroke:#fff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+      .flow{fill:none;stroke:#3b82f6;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+      .branch{fill:none;stroke:#38bdf8;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#background)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  <rect x="72" y="64" width="8" height="84" rx="4" fill="#2563eb"/>
+  <text class="title" x="108" y="105">NEXUS AI Resume Intelligence Platform</text>
+  <text class="subtitle" x="108" y="140">Offline architecture · transparent analysis · privacy-first processing</text>
+  <g transform="translate(1580 76)">
+    <rect width="268" height="54" rx="27" fill="#e0ebff" stroke="#a9c4f5"/>
+    <circle cx="30" cy="27" r="9" fill="#22c55e"/>
+    <text x="52" y="34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#173b82">100% Local Workflow</text>
+  </g>
+
+  <text class="lane" x="112" y="202">INPUT &amp; EXTRACTION</text>
+  <text class="lane" x="112" y="487">ANALYSIS PIPELINE</text>
+  <text class="lane" x="112" y="772">INSIGHTS &amp; REPORTING</text>
+
+  <!-- Flow arrows: row one -->
+  <path class="flow" d="M432 300H548"/>
+  <path class="flow" d="M872 300H988"/>
+  <path class="flow" d="M1312 300H1428"/>
+  <path class="flow" d="M1590 372V493"/>
+  <!-- Flow arrows: row two, right to left -->
+  <path class="flow" d="M1428 585H1312"/>
+  <path class="flow" d="M988 585H872"/>
+  <path class="flow" d="M548 585H432"/>
+  <path class="flow" d="M270 657V778"/>
+  <!-- Flow arrows: output row -->
+  <path class="flow" d="M432 870H548"/>
+  <path class="branch" d="M872 870H968Q1010 870 1010 840V826Q1010 800 1040 800H1118"/>
+  <path class="branch" d="M872 870H968Q1010 870 1010 900V914Q1010 940 1040 940H1458"/>
+
+  <!-- 1 User -->
+  <g transform="translate(112 228)" filter="url(#shadow)">
+    <rect width="320" height="144" rx="22" fill="url(#primary)"/>
+    <circle cx="28" cy="28" r="17" fill="#fff"/>
+    <text class="number" x="23" y="33">1</text>
+    <g class="icon" transform="translate(38 57)"><circle cx="24" cy="16" r="13"/><path d="M4 58c2-18 12-27 20-27s18 9 20 27"/></g>
+    <text class="card-title" x="108" y="77">User</text>
+    <text class="card-subtitle" x="108" y="104">Starts a private analysis</text>
+  </g>
+
+  <!-- 2 Upload -->
+  <g transform="translate(552 228)" filter="url(#shadow)">
+    <rect width="320" height="144" rx="22" fill="url(#primary)"/>
+    <circle cx="28" cy="28" r="17" fill="#fff"/><text class="number" x="23" y="33">2</text>
+    <g class="icon" transform="translate(35 56)"><path d="M28 4v43M13 19L28 4l15 15"/><path d="M7 45v15h42V45"/></g>
+    <text class="card-title" x="108" y="77">Upload Resume PDF</text>
+    <text class="card-subtitle" x="108" y="104">Temporary local file</text>
+  </g>
+
+  <!-- 3 PDF reader -->
+  <g transform="translate(992 228)" filter="url(#shadow)">
+    <rect width="320" height="144" rx="22" fill="url(#primary)"/>
+    <circle cx="28" cy="28" r="17" fill="#fff"/><text class="number" x="23" y="33">3</text>
+    <g class="icon" transform="translate(36 54)"><path d="M8 2h29l14 14v48H8z"/><path d="M37 2v15h14"/><path d="M17 48h25M17 37h18"/></g>
+    <text class="card-title" x="108" y="77">PDF Reader</text>
+    <text class="card-subtitle" x="108" y="104">Validates readable documents</text>
+  </g>
+
+  <!-- 4 extraction -->
+  <g transform="translate(1432 228)" filter="url(#shadow)">
+    <rect width="320" height="144" rx="22" fill="url(#primary)"/>
+    <circle cx="28" cy="28" r="17" fill="#fff"/><text class="number" x="23" y="33">4</text>
+    <g class="icon" transform="translate(35 54)"><path d="M5 8h48M5 22h37M5 36h44M5 50h30"/><circle cx="48" cy="51" r="10"/><path d="M55 58l10 10"/></g>
+    <text class="card-title" x="108" y="77">Text Extraction</text>
+    <text class="card-subtitle" x="108" y="104">Cleans text from every page</text>
+  </g>
+
+  <!-- 5 parser -->
+  <g transform="translate(1432 513)" filter="url(#shadow)">
+    <rect width="320" height="144" rx="22" fill="url(#primary)"/>
+    <circle cx="28" cy="28" r="17" fill="#fff"/><text class="number" x="23" y="33">5</text>
+    <g class="icon" transform="translate(35 54)"><path d="M18 4H5v58h13M46 4h13v58H46"/><path d="M25 20h14M25 33h20M25 46h11"/></g>
+    <text class="card-title" x="108" y="77">Resume Parser</text>
+    <text class="card-subtitle" x="108" y="104">Structures resume evidence</text>
+  </g>
+
+  <!-- 6 skill matcher -->
+  <g transform="translate(992 513)" filter="url(#shadow)">
+    <rect width="320" height="144" rx="22" fill="url(#primary)"/>
+    <circle cx="28" cy="28" r="17" fill="#fff"/><text class="number" x="23" y="33">6</text>
+    <g class="icon" transform="translate(34 55)"><circle cx="18" cy="18" r="11"/><circle cx="48" cy="48" r="11"/><path d="M26 26l14 14M6 48h20M40 18h20"/></g>
+    <text class="card-title" x="108" y="77">Skill Matcher</text>
+    <text class="card-subtitle" x="108" y="104">Matches aliases and evidence</text>
+  </g>
+
+  <!-- 7 ATS -->
+  <g transform="translate(552 513)" filter="url(#shadow)">
+    <rect width="320" height="144" rx="22" fill="url(#primary)"/>
+    <circle cx="28" cy="28" r="17" fill="#fff"/><text class="number" x="23" y="33">7</text>
+    <g class="icon" transform="translate(35 53)"><path d="M31 3l24 9v18c0 16-10 27-24 34C17 57 7 46 7 30V12z"/><path d="M19 32l8 8 17-19"/></g>
+    <text class="card-title" x="108" y="77">ATS Engine</text>
+    <text class="card-subtitle" x="108" y="104">Scores eight readiness areas</text>
+  </g>
+
+  <!-- 8 intelligence -->
+  <g transform="translate(112 513)" filter="url(#shadow)">
+    <rect width="320" height="144" rx="22" fill="url(#primary)"/>
+    <circle cx="28" cy="28" r="17" fill="#fff"/><text class="number" x="23" y="33">8</text>
+    <g class="icon" transform="translate(35 54)"><circle cx="15" cy="16" r="8"/><circle cx="48" cy="15" r="8"/><circle cx="31" cy="49" r="9"/><path d="M22 20l19-2M19 23l8 18M44 22l-9 19"/></g>
+    <text class="card-title" x="108" y="72">Resume Intelligence</text>
+    <text class="card-title" x="108" y="99">Engine</text>
+    <text class="card-subtitle" x="108" y="123">Builds priorities and roadmap</text>
+  </g>
+
+  <!-- 9 analytics -->
+  <g transform="translate(112 798)" filter="url(#shadow)">
+    <rect width="320" height="144" rx="22" fill="url(#primary)"/>
+    <circle cx="28" cy="28" r="17" fill="#fff"/><text class="number" x="23" y="33">9</text>
+    <g class="icon" transform="translate(34 54)"><path d="M7 61V35h11v26M26 61V18h11v43M45 61V5h11v56M4 61h57"/></g>
+    <text class="card-title" x="108" y="77">Analytics Engine</text>
+    <text class="card-subtitle" x="108" y="104">Prepares visual insights</text>
+  </g>
+
+  <!-- 10 dashboard -->
+  <g transform="translate(552 798)" filter="url(#shadow)">
+    <rect width="320" height="144" rx="22" fill="url(#primary)"/>
+    <circle cx="28" cy="28" r="17" fill="#fff"/><text class="number" x="19" y="33">10</text>
+    <g class="icon" transform="translate(34 54)"><rect x="3" y="4" width="58" height="48" rx="4"/><path d="M21 63h22M32 52v11M13 37l11-10 10 6 16-17"/></g>
+    <text class="card-title" x="108" y="77">Dashboard</text>
+    <text class="card-subtitle" x="108" y="104">Presents explainable results</text>
+  </g>
+
+  <!-- HTML output -->
+  <g transform="translate(1122 742)" filter="url(#shadow)">
+    <rect width="300" height="120" rx="20" fill="url(#output)"/>
+    <g class="icon" transform="translate(28 34)"><path d="M17 7L4 25l13 18M39 7l13 18-13 18M34 2L22 49"/></g>
+    <text class="card-title" x="104" y="52">HTML Report</text>
+    <text class="card-subtitle" x="104" y="80">Browser-ready export</text>
+  </g>
+
+  <!-- TXT output -->
+  <g transform="translate(1462 882)" filter="url(#shadow)">
+    <rect width="290" height="120" rx="20" fill="url(#output)"/>
+    <g class="icon" transform="translate(26 29)"><path d="M7 2h31l14 14v46H7zM38 2v15h14M16 32h28M16 43h28M16 54h19"/></g>
+    <text class="card-title" x="100" y="52">TXT Report</text>
+    <text class="card-subtitle" x="100" y="80">Portable text export</text>
+  </g>
+
+  <text x="112" y="1040" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#67809f">NEXUS AI · Version 1.0 Release Candidate</text>
+  <text x="1808" y="1040" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#67809f">No external API · No permanent resume storage</text>
+</svg>

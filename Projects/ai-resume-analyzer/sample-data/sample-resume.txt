@@ -1,0 +1,17 @@
+Jordan Lee
+Junior Data Analyst
+
+SUMMARY
+Detail-oriented analyst with experience cleaning data, building dashboards, and communicating findings to non-technical audiences.
+
+SKILLS
+Python, SQL, pandas, Excel, Power BI, data visualization
+
+EXPERIENCE
+Data Analyst Intern — Bright Retail
+- Cleaned and analyzed weekly sales data using Python and pandas.
+- Built a Power BI dashboard used by the sales team to track regional performance.
+- Automated a recurring Excel report, reducing preparation time by 30%.
+
+EDUCATION
+Bachelor of Science in Information Technology
