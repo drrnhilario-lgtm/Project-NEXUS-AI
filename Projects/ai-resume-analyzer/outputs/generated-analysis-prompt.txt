@@ -1,0 +1,48 @@
+You are an experienced technical recruiter and resume coach.
+
+Compare the resume with the job description. Base every observation only on the supplied text, and do not invent experience or qualifications.
+
+Return a concise Markdown report with these sections:
+1. Match score (0-100) with a one-sentence rationale
+2. Strong matches
+3. Missing or weak keywords
+4. Experience gaps
+5. Three specific resume improvements
+6. Suggested rewritten summary
+
+RESUME
+Jordan Lee
+Junior Data Analyst
+
+SUMMARY
+Detail-oriented analyst with experience cleaning data, building dashboards, and communicating findings to non-technical audiences.
+
+SKILLS
+Python, SQL, pandas, Excel, Power BI, data visualization
+
+EXPERIENCE
+Data Analyst Intern — Bright Retail
+- Cleaned and analyzed weekly sales data using Python and pandas.
+- Built a Power BI dashboard used by the sales team to track regional performance.
+- Automated a recurring Excel report, reducing preparation time by 30%.
+
+EDUCATION
+Bachelor of Science in Information Technology
+
+JOB DESCRIPTION
+Junior Data Analyst
+
+We are looking for a Junior Data Analyst to help our product team turn data into actionable insights.
+
+Responsibilities:
+- Write SQL queries to extract and validate data.
+- Analyze product usage with Python and pandas.
+- Build dashboards in Power BI or Tableau.
+- Present clear recommendations to cross-functional stakeholders.
+
+Qualifications:
+- Strong SQL and spreadsheet skills.
+- Familiarity with Python-based data analysis.
+- Experience with dashboard and visualization tools.
+- Excellent written and verbal communication.
+- Knowledge of A/B testing is a plus.

@@ -1,0 +1,2 @@
+# Tests and release validation use Python's standard library unittest module.
+# No additional development-only packages are required for Version 1.0 RC.
